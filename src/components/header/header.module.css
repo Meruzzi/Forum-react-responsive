@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  padding-top: 10px;
+}
+
+.navBar { 
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+}
+
+.navUl {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+
+.iconNav {
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+}
+
+.iconNav:hover {
+  cursor: pointer;
+  background-color: #0086FF;
+  border-radius: 5px;
+}
+
+
+@media (min-width: 768px) {
+  .navBar {
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navUl {
+    width: 25%;
+    justify-content: space-around;
+  }
+}

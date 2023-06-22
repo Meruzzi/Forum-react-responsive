@@ -1,0 +1,66 @@
+.cardPostagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardPost {
+  width: 90%;
+  max-width: 1000px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  border-radius: 10px;
+}
+
+.cardInfPost {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.cardInfLikesCmt {
+  justify-content: space-around;
+}
+
+.iconPost {
+  width: 20px;
+  height: 20px;
+}
+
+.cardInteracoesPost {
+  width: 80%;
+  max-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.cardBtnAcao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.cardBtnAcao:hover {
+  background-color: #0086FF;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.IntComentar {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.IntComentar:visited {
+  color: black;
+}
+
+@media (max-width: 300px) {
+  .cardInteracoesPost {
+    flex-direction: column;
+  }
+}

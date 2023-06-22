@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Tópico 1",
+        "subtitulo": "Subtópico 1",
+        "dataPub": "21/06/2023"
+    },
+    {
+        "titulo": "Tópico 2",
+        "subtitulo": "Subtópico 2",
+        "dataPub": "22/06/2023"
+    },
+    {
+        "titulo": "Tópico 3",
+        "subtitulo": "Subtópico 3",
+        "dataPub": "23/06/2023"
+    },
+    {
+        "titulo": "Tópico 4",
+        "subtitulo": "Subtópico 4",
+        "dataPub": "24/06/2023"
+    }
+]
