@@ -1,17 +1,25 @@
-## Running React on Repl.it
+Resumo do Projeto - Fórum Responsivo com Respostas de Usuários, Tópicos Populares
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Este projeto consiste em criar um fórum interativo onde os usuários podem postar respostas, visualizar os tópicos mais visitados e mais curtidos. A página é responsiva, adaptando-se à resolução do dispositivo do usuário, excluindo áreas não essenciais em telas menores.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+Features:
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Fórum interativo com postagem de respostas.
+Destaque para tópicos mais visitados e mais curtidos.
+Design responsivo para melhor experiência em diferentes dispositivos.
+Considerações Finais:
+Este projeto oferece uma plataforma de fórum responsiva e interativa, permitindo que os usuários participem ativamente da comunidade. O layout se adapta a diversos dispositivos, proporcionando uma experiência consistente e amigável para todos os usuários.
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+English:
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+Project Summary - Responsive Forum with User Replies, Popular Topics
 
-### Typescript
+This project aims to create an interactive forum where users can post replies and view the most visited and most liked topics. The page is responsive, adapting to the user's device resolution and excluding non-essential areas on smaller screens.
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+Features:
+
+Interactive forum with user replies.
+Highlighting popular topics.
+Responsive design for an improved experience on various devices.
+Final Remarks:
+This project offers a responsive and interactive forum platform, allowing users to actively engage with the community. The layout adapts to different devices, providing a consistent and user-friendly experience for all users.
